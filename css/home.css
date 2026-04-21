@@ -13,6 +13,9 @@
     -moz-box-sizing:border-box ;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     color: var(--lightcolor);
     background-color: var(--bgcolor-2);
@@ -90,6 +93,7 @@ body{
     font-size: 18px;
     margin: 7px  ;
     transition: 0.4s;
+    cursor: pointer;
 }
 .header .container ul li a:hover{
     color: var(--primarycolor);
